@@ -32,7 +32,6 @@ cryptography = "42.0.4" # pyjwt has a weak dependency on cryptography
 pyjwt = "^2.8.0"
 pyopenssl = "24.0.0"    # pyopenssl is required to work with cryptography 41+
 requests = "^2.31.0"
-urllib3 = "^2.0.7"       # requests has a weak dependency on urllib3
 
 [tool.poetry.group.dev.dependencies]
 aioresponses = "^0.7.4"
